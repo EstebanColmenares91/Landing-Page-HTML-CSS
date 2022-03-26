@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap");
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --rosado: #fe7867;
+    --amarillo:#fad400;
+    --verdepantano: #25564b;
+    --verde: #19536b;
+    --verdepistacho:#458c7e;
+    --verdeoscuro: #23303e;
+    --grismasoscuro: #5a636c;
+    --grisoscuro: #818498;
+    --gris:#a7abae;
+    --blanco: #ffffff;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    width: 100vw;
+    height: 100wh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: black;
+    font-size: 1.6rem;
+    color: white;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+   display: block; 
+}
+
+/* BEGINS HEADER'S LANDING PAGE */
+header{
+    width: 100%;
+    min-width: 36rem;
+    height: 100vh;
+    background-image: url("../mobile/image-header.jpg");
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+
+
+.header__item--hidden{
+    display: none;
+}
+
+.header__welcome{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 15rem;
+}
+/* LANDING'S HEADER IT'S DONE */
+
+/* CARDS MAIN */
+
+.section__picture{
+    width: 100vw;
+    min-height: 30rem;
+}
+
+.section__picture img{
+    width: 100%;
+    min-width: 36rem;
+}
+
+.section__card{
+    min-height: 35rem;
+    text-align: center;
+    padding: 3rem;
+    background-color: white;
+    color: black;
+}
+
+.section__card--info p{
+    color: var(--grisoscuro);
+    margin-bottom: 2rem;
+}
+
+.section__card h2{
+    font-size: 3.5rem;
+    padding-bottom: 2rem;
+}
