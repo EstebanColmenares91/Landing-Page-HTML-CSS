@@ -27,3 +27,7 @@
     min-width: 30rem;
     max-width: 96rem;
 }
+
+.section__images-grid {
+    display: flex;
+}
