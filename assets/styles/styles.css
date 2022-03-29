@@ -31,6 +31,25 @@ body{
     font-size: 1.6rem;
     color: white;
 }
+h2{
+    font-size: 3.5rem;
+    padding: 2rem;
+}
+
+h3{
+    font-size: 2.5rem;
+    color: black;
+}
+
+h5{
+    font-size: 2rem;
+    color: black;
+}
+
+p{
+    line-height: 1.5;
+    font-weight: 600;
+}
 
 li{
     list-style: none;
@@ -47,7 +66,7 @@ img{
 /* BEGINS HEADER'S LANDING PAGE */
 header{
     width: 100%;
-    min-width: 36rem;
+    min-width: 30rem;
     height: 100vh;
     background-image: url("../mobile/image-header.jpg");
     background-position: center ;
@@ -102,7 +121,83 @@ header{
     margin-bottom: 2rem;
 }
 
-.section__card h2{
-    font-size: 3.5rem;
-    padding-bottom: 2rem;
+
+.section__cardDescription{
+    position: relative
+}
+.section__description{
+    position:absolute;
+    bottom: 12%;
+    text-align: center;
+    padding: 0 2rem;
+    color: var(--verdeoscuro);
+}
+
+.section__clientTestimonials{
+    padding: 5rem 2rem;
+    background-color: var(--blanco);
+    color: var(--grisoscuro);
+}
+
+.clientTestimonials__title{
+    text-align: center;
+}
+
+.client__img{
+    border-radius: 50%;
+    margin: 5rem 0;
+}
+
+.client__profilecard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card__clientName{
+    margin: 1rem 0;
+}
+
+.client__job{
+    font-size: 1.3rem;
+}
+
+/* Gallery */
+
+.section__images-grid{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+
+.section__gallery > img{
+    width: 100%;
+}
+
+
+/* FOOTER */
+
+.footercontent{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--verdepistacho);
+    padding: 3rem;
+}
+
+.header__logo{
+    margin: 0 auto;
+}
+
+.footer__menu{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem 0;
+}
+
+.footer__icon--link{
+    color: black;
 }
