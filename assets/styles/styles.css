@@ -109,11 +109,14 @@ header{
 }
 
 .section__card{
-    min-height: 35rem;
     text-align: center;
     padding: 3rem;
     background-color: white;
     color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .section__card--info p{
@@ -188,7 +191,7 @@ header{
     padding: 3rem;
 }
 
-.header__logo{
+.footer__logo{
     margin: 0 auto;
 }
 
@@ -198,6 +201,3 @@ header{
     padding: 2rem 0;
 }
 
-.footer__icon--link{
-    color: black;
-}

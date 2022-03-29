@@ -1,20 +1,29 @@
-body{
+
+.section__main--grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.section__picture{
+    width: 50vw;
+    min-width: 30rem;
+}
+
+.section__picture img {
     width: 100%;
-    max-width: 900px;
+    min-width: 23rem;
+    max-width: 96rem;
+    height: 100%;
 }
 
-.section__main--grid{
-    width: 50%;
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
+.clients__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-
-.section__main--grid > img{
-    width: 50%;
-}
-
-.section__main--grid{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
+.section__card{
+    width: 100%;
+    min-width: 30rem;
+    max-width: 96rem;
 }
