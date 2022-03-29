@@ -1,0 +1,20 @@
+body{
+    width: 100%;
+    max-width: 900px;
+}
+
+.section__main--grid{
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+
+.section__main--grid > img{
+    width: 50%;
+}
+
+.section__main--grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
