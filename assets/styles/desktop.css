@@ -52,5 +52,5 @@ body{
 .section__gallery > img{
     width: 100%;
     max-width: 48rem;
-    height: 48rem;
+    /*height: 48rem;*/ <-
 }
