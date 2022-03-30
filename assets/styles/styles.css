@@ -23,13 +23,13 @@ html{
 
 body{
     width: 100vw;
-    height: 100wh;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     background-color: black;
     font-size: 1.6rem;
     color: white;
+    margin: 0 auto;
 }
 h2{
     font-size: 3.5rem;
@@ -56,7 +56,9 @@ li{
 }
 
 a{
+    color: #000;
     text-decoration: none;
+    cursor: pointer;
 }
 
 img{
@@ -66,7 +68,7 @@ img{
 /* BEGINS HEADER'S LANDING PAGE */
 header{
     width: 100%;
-    min-width: 30rem;
+    min-width: 36rem;
     height: 100vh;
     background-image: url("../mobile/image-header.jpg");
     background-position: center ;
@@ -173,6 +175,7 @@ header{
     width: 100%;
     display: grid;
     grid-template-columns: repeat(2,1fr);
+    max-width: 192rem;
 }
 
 
@@ -199,5 +202,6 @@ header{
     display: flex;
     justify-content: space-evenly;
     padding: 2rem 0;
+    margin-left: 2rem;
 }
 

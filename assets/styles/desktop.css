@@ -3,6 +3,7 @@
 body{
     max-width: 192rem;
     margin: 0 auto;
+    font-size: 2rem;
 }
 
 
@@ -30,6 +31,26 @@ body{
     display: none;
 }
 
-.header__item--hidden{
+.header__menu{
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__item--hidden{
+    display: block;
+    margin-right: 2rem;
+}
+
+
+.header__item--hidden:last-child{
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 5rem;
+}
+
+.section__gallery > img{
+    width: 100%;
+    max-width: 48rem;
+    height: 48rem;
 }
