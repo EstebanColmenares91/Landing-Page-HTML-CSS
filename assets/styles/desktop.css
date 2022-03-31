@@ -8,6 +8,39 @@ body{
     overflow-x: hidden;
 }
 
+a:hover{
+    color: yellow;
+    transition: 0.8s;
+}
+
+.header__welcome{
+    margin: 30rem;
+}
+
+.header__welcome h1{
+    font-size: 5rem;
+    font-family: 'Red Hat Mono', monospace;
+}
+
+
+.header__welcome h1 {
+    font-size: 8rem;
+    margin-bottom: 2rem;
+}
+
+h2{
+    font-size: 5rem;
+}
+
+h3{
+    font-size: 4rem;
+    color: #1c1b1a;
+}
+
+.section__main, .section__clientTestimonials, footer{
+    width: 100%;
+    max-width: 192rem;
+}
 
 #box1{
     order: 2;
@@ -30,9 +63,6 @@ body{
     padding: 8rem;
 }
 
-
-/* Galeria de fotos */
-
 /* navbar */
 .header__item{
     display: none;
@@ -49,13 +79,23 @@ body{
     margin-right: 2rem;
 }
 
-
 .header__item--hidden:last-child{
     background-color: white;
     padding: 1.5rem;
     border-radius: 5rem;
 }
+/* navbar */
 
+.section__card{
+    align-items: flex-start;
+}
+
+.section__card{
+    text-align: left;
+}
+
+
+/* Galeria de fotos */
 .section__gallery > img{
     width: 100%;
     max-width: 48rem;
