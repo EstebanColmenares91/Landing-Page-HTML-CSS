@@ -1,9 +1,11 @@
 /* RECORDATORIO PARA AJUSTAR EL MAX-WIDTH A TODA LA PÁGINA */
 
 body{
+    width: 100%;
     max-width: 192rem;
     margin: 0 auto;
     font-size: 2rem;
+    overflow-x: hidden;
 }
 
 
@@ -23,6 +25,11 @@ body{
 #box6{
     order: 6;
 }
+
+.client__profilecard{
+    padding: 8rem;
+}
+
 
 /* Galeria de fotos */
 
@@ -52,5 +59,4 @@ body{
 .section__gallery > img{
     width: 100%;
     max-width: 48rem;
-    height: 48rem;
 }
