@@ -22,7 +22,6 @@ html{
 }
 
 body{
-    width: 100vw;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -68,8 +67,8 @@ img{
 /* BEGINS HEADER'S LANDING PAGE */
 header{
     width: 100%;
-    min-width: 36rem;
-    height: 100vh;
+    min-width: 32rem;
+    min-height: 70vh;
     background-image: url("../mobile/image-header.jpg");
     background-position: center ;
     background-repeat: no-repeat;
@@ -94,7 +93,7 @@ header{
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: 15rem;
+    padding: 15rem ;
 }
 /* LANDING'S HEADER IT'S DONE */
 
@@ -111,7 +110,7 @@ header{
 
 .section__picture img{
     width: 100%;
-    min-width: 36rem;
+    min-width: 32rem;
 }
 
 .section__card{

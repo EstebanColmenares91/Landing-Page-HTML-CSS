@@ -1,7 +1,6 @@
 /* RECORDATORIO PARA AJUSTAR EL MAX-WIDTH A TODA LA PÁGINA */
 
 body{
-    width: 100%;
     max-width: 192rem;
     margin: 0 auto;
     font-size: 2rem;
@@ -14,7 +13,7 @@ a:hover{
 }
 
 .header__welcome{
-    margin: 30rem;
+    margin: 15rem 0;
 }
 
 .header__welcome h1{
@@ -60,7 +59,7 @@ h3{
 }
 
 .client__profilecard{
-    padding: 8rem;
+    padding: 6rem;
 }
 
 /* navbar */
