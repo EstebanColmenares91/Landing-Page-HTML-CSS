@@ -68,7 +68,7 @@ img{
 header{
     width: 100%;
     min-width: 32rem;
-    min-height: 70vh;
+    min-height: 100vh;
     background-image: url("../mobile/image-header.jpg");
     background-position: center ;
     background-repeat: no-repeat;
