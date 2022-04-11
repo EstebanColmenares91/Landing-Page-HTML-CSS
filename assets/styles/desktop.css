@@ -12,9 +12,11 @@ a:hover{
     transition: 0.8s;
 }
 
-.header__welcome{
-    margin: 15rem 0;
+header{
+    background-image: url('../desktop/image-header.jpg');
+    height: 70vh;
 }
+
 
 .header__welcome h1{
     font-size: 5rem;
@@ -24,7 +26,6 @@ a:hover{
 
 .header__welcome h1 {
     font-size: 8rem;
-    margin-bottom: 2rem;
 }
 
 h2{
@@ -39,6 +40,10 @@ h3{
 .section__main, .section__clientTestimonials, footer{
     width: 100%;
     max-width: 192rem;
+}
+
+.section__card, .section__picture img{
+    height: 70vh;
 }
 
 #box1{
@@ -97,5 +102,8 @@ h3{
 /* Galeria de fotos */
 .section__gallery > img{
     width: 100%;
-    max-width: 48rem;
+}
+
+.header__item--hidden:last-child{
+    margin: 0;
 }
