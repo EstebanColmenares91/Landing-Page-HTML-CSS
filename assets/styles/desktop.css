@@ -42,9 +42,6 @@ h3{
     max-width: 192rem;
 }
 
-.section__card, .section__picture img{
-    height: 70vh;
-}
 
 #box1{
     order: 2;
